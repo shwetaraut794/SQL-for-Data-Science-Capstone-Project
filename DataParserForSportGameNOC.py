@@ -137,12 +137,12 @@ class AthleteDataParser:
         sportsData = self.read_main_csv()
         NOCRegionData =  self.read_noc_csv()
         """ Calling function insert_into_NOC """
-        #self.insert_into_NOC(NOCRegionData)
+        self.insert_into_NOC(NOCRegionData)
         """ Calling function insert_into_Game """
-        #self.insert_into_Game(sportsData)
+        self.insert_into_Game(sportsData)
         """ Calling function insert_into_Sports """
-        #self.insert_into_Sport(sportsData)
-        #self.insert_into_Team(sportsData)
+        self.insert_into_Sport(sportsData)
+       
 
     
 
